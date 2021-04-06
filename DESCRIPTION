@@ -1,0 +1,18 @@
+Package: UFNLP
+Type: Package
+Title: Variety of Custom NLP functions
+Version: 0.1.0
+Author: Jack Ogozaly
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: tidyverse, tidytext, topicmodels, tm, SnowballC, plyr, gdata,
+        e1071, RTextTools, caret, popbio, ggplot2, dplyr, magrittr
+Suggests: knitr
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2021-04-06 23:14:33 UTC; jogoz
