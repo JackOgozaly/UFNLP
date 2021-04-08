@@ -6,6 +6,7 @@ These functions help expedite certain aspects of an NLP project including initia
 To download this package into R, you want to make sure you have the devtools package installed and then run the two lines below. 
 
 library(devtools)
+
 devtools::install_github("JackOgozaly/UFNLP")
 
 ## text_clean 
