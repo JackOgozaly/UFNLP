@@ -35,7 +35,9 @@ This function generates a dataframe that has the top X for each label class (whe
 library(dplyr)
 
 your_output <- your_dataframe %>%
+
   group_by(class) %>%
+  
   count(VariableX)
   
 ## ngram 
